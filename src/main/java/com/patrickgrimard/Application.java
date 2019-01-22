@@ -22,6 +22,6 @@ public class Application {
     
     @EventListener(ApplicationReadyEvent.class)
     public void afterRun(){
-        System.out.printLine("hello world!!!");
+        System.out.println("hello world!!!");
     }
 }
