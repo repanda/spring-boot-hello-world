@@ -20,7 +20,7 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
     
-    @EventListener(ApplicationReadyEvent.class)
+    //@EventListener(ApplicationReadyEvent.class)
     public void afterRun(){
         System.out.println("hello world!!!");
     }
